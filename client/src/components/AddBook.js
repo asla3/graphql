@@ -38,7 +38,7 @@ function AddBook(props) {
 
 			<div className="field">
 				<label>Author:</label>
-				<select onChange={ (e) => setGenre(e.target.value) }>
+				<select onChange={ (e) => setAuthorId(e.target.value) }>
 					<option>Select author</option>
 					{displayAuthors()}
 				</select>
